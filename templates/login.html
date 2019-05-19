@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for("static", filename="css/bootstrap.min.css") }}">
+    <style>
+        .border{
+            margin:0 auto;
+            margin-top:100px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+    <div class="border col-md-5 col-md-offset-4">
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="name">用户名</label>
+                <input class="form-control" type="text" name="username" id="name">
+            </div>
+            <div class="form-group">
+                <label for="pwd">密码</label>
+                <input class="form-control" type="password" name="password" id="pwd">
+            </div>
+            <button class="btn btn-primary">登录</button>
+        </form>
+        <div style=" margin-top:50px;">第三方登录</div>
+        <div>
+            <a href="{{ weibo_url }}">&nbsp;&nbsp;微博</a>
+            <a href="">&nbsp;QQ</a>
+            <a href="">&nbsp;微信</a>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
