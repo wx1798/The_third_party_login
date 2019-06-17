@@ -4,7 +4,7 @@ from settings import Config
 
 def connect():
     conn = Config.POOL.connection()
-    cursor = conn.curser(pymysql.cursors.DictCursor)
+    cursor = conn.cursor(pymysql.cursors.DictCursor)
     return conn, cursor
 
 

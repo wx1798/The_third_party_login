@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="The_third_party_login" type="Python.FlaskServer" factoryName="Flask server">
-    <option name="additionalOptions" value="" />
+    <option name="additionalOptions" value="--host=127.0.0.1 --port=8000" />
     <option name="application" value="" />
     <module name="The_third_party_login" />
     <option name="target" value="$PROJECT_DIR$/app.py" />
